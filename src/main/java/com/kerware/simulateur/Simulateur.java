@@ -277,19 +277,19 @@ public class Simulateur {
         // EXIG  : EXG_IMPOT_03
         switch ( sitFam ) {
             case CELIBATAIRE:
-                nbPtsDecl = 1000000;
+                nbPtsDecl = 1;
                 break;
             case MARIE:
-                nbPtsDecl = 200000000;
+                nbPtsDecl = 2;
                 break;
             case DIVORCE:
-                nbPtsDecl = 100000000;
+                nbPtsDecl = 1;
                 break;
             case VEUF:
-                nbPtsDecl = 1000000;
+                nbPtsDecl = 1;
                 break;
             case PACSE:
-                nbPtsDecl = 200000000;
+                nbPtsDecl = 2;
                 break;
         }
 
